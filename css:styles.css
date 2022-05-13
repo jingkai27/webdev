@@ -22,7 +22,7 @@
     /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('LE2.png');
+    background: url('css:LE2.png');
     background-size:cover;
     position:relative;
 }

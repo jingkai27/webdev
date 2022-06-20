@@ -1,0 +1,232 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+/* title */
+
+p {
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+
+
+.btn-lg {
+  --bs-btn-padding-y: 0.5rem;
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-font-size: 1.75rem;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Headings */
+.big-headings {
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 1.5;
+  margin-top: 100px;
+  color: white;
+}
+
+.header{
+  text-align: left;
+}
+
+
+/* Navigation Bar */
+.navbar-brand {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* adjustments to image */
+.mainpic {
+  transform: rotate(20deg);
+  padding-left: 7%;
+  position: absolute;
+  z-index: 0;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+/* features */
+#features {
+  padding: 5% 10%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.features-text{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.three-points {
+  margin: 7.5% 0;
+}
+
+.three-points>i {
+  color: #ef8172;
+  padding: 20px 0;
+}
+
+.three-points>i:hover {
+  color: #FF5D5D;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ff4c68;
+  color: #fff;
+  outline: none;
+}
+
+.testimonial-text {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.carousel-item{
+  padding: 9% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+  outline: none
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.press-text{
+  color: white;
+  padding-bottom: 2%;
+  font-size: 2.7rem;
+  font-weight: 600;
+  }
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 10%;
+}
+
+.prices {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.pricing-header{
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.pricing-column{
+  padding: 0 2%;
+}
+
+.card {
+  padding: 0;
+}
+
+.card-text {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.card-body>h2{
+  margin-bottom: 5%;
+}
+.card-body>p{
+  margin: 2%;
+}
+
+/* call to action */
+#cta{
+  padding: 7.5% 3%;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.cta-text{
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.cta-btn{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* footer */
+#footer{
+  padding: 5% 3% 1%;
+  background-color: white;
+}
+
+.footer-text{
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.icon{
+  padding: 0 0.1%;
+}
+
+/* media queries */
+
+@media(max-width: 1250px){
+  .mainpic{
+    padding-left: 12.5%;
+    padding-top: 35%;
+    position: relative;
+  }
+  .android{
+    margin-top: 0;
+  }
+}
+
+@media(max-width: 990px){
+  .mainpic{
+    position: static;
+    transform: rotate(0deg);
+    padding-left: 0;
+    padding-top: 10%;
+  }
+  #title{
+    text-align: center;
+  }
+  .android{
+    margin-top: 10%;
+  }
+}
